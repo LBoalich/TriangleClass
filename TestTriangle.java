@@ -51,10 +51,12 @@ class Triangle extends GeometricObject {
 
    /* Default Constructor */
    public Triangle() {
+      super();
    }
 
    /* Constructor utilizing given side values */
    public Triangle(double newSide1, double newSide2, double newSide3) {
+      super();
       this.side1 = newSide1;
       this.side2 = newSide2;
       this.side3 = newSide3;
